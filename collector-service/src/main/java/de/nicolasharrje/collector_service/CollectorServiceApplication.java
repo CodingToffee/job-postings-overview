@@ -13,7 +13,7 @@ public class CollectorServiceApplication {
 
 		ArbeitsagenturClient client = new ArbeitsagenturClient();
 		JobSearchResponse response = client.searchJobs("Data Engineer", "Hamburg", "Informatik", 50, "vz");
-		System.out.println(response);
+		System.out.println(response.getStellenangebote().getFirst().getBeruf());
 	}
 
 }

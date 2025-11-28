@@ -12,7 +12,7 @@ public class Stellenangebot {
     String arbeitgeber;
     String aktuelleVeroeffentlichungsdatum;
     String eintrittsdatum;
-    String arbeitsort;
+    Arbeitsort arbeitsort;
     String modifikationsTimestamp;
 
     // Getter und Setter
@@ -34,8 +34,8 @@ public class Stellenangebot {
     public String getEintrittsdatum() { return eintrittsdatum; }
     public void setEintrittsdatum(String eintrittsdatum) { this.eintrittsdatum = eintrittsdatum; }
 
-    public String getArbeitsort() { return arbeitsort; }
-    public void setArbeitsort(String arbeitsort) { this.arbeitsort = arbeitsort; }
+    public Arbeitsort getArbeitsort() { return arbeitsort; }
+    public void setArbeitsort(Arbeitsort arbeitsort) { this.arbeitsort = arbeitsort; }
 
     public String getModifikationsTimestamp() { return modifikationsTimestamp; }
     public void setModifikationsTimestamp(String modifikationsTimestamp) { this.modifikationsTimestamp = modifikationsTimestamp; }
